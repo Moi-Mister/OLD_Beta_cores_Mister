@@ -1,0 +1,100 @@
+<misterromdescription>
+  <name>Waku Waku 7 (Unlock Characters hack)</name>
+  <setname>wakuwak7h</setname>
+  <mameversion>darksoft_neogeo</mameversion>
+  <rbf>NeoGeo-MVS</rbf>
+  <year>1996</year>
+  <manufacturer>hack (Yumeji)</manufacturer>
+  <players>2</players>
+  <joystick>8-way</joystick>
+  <rotation>horizontal</rotation>
+  <region>World</region>
+  <platform>Neo Geo MVS</platform>
+  <mratimestamp>20220328</mratimestamp>
+  <!-- bios -->
+  <rom address="0x38000000" index="0" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="a7aab458" name="uni-bios.rom"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0000 0000 0200 0100 0000</part>
+  </rom>
+  <!-- lorom -->
+  <rom index="1" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="5a86cff2" name="000-lo.lo" length="0x10000"/>
+  </rom>
+  <!-- sfix -->
+  <rom index="2" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="c2ea0cfd" name="sfix.sfix"/>
+  </rom>
+  <!-- prom -->
+  <rom address="0x38000000" index="4" zip="wakuwak7.zip" type="merged" md5="None">
+    <part name="prom"/>
+    <patch offset="0x1770">42 0c 01 00 06 66 41 0c 07 00 04 60 40 0c 07 00</patch>
+    <patch offset="0x1780">08 65 42 4a 02 66 40 c3 04 74 f9 4e 03 00 92 f8</patch>
+    <patch offset="0x1790">40 0c 07 00 06 65 02 4a 06 6a 0a 60 40 b4 06 67</patch>
+    <patch offset="0x17a0">f9 4e 04 00 f0 9a f9 4e 04 00 f8 9a ff ff ff ff</patch>
+    <patch offset="0x17b0">ff ff</patch>
+    <patch offset="0x3f37e">06 67</patch>
+    <patch offset="0x3f380">46 0c 07 00 04 60 47</patch>
+    <patch offset="0x3f38a">18 62 32 65</patch>
+    <patch offset="0x3f7be">b8</patch>
+    <patch offset="0x3f7c0">70 17</patch>
+    <patch offset="0x3f908">b8</patch>
+    <patch offset="0x3f90a">70 17</patch>
+    <patch offset="0x4963d">60</patch>
+    <patch offset="0x49aea">f9 4e</patch>
+    <patch offset="0x49aed">00 90 17</patch>
+    <patch offset="0x4aa0e">00</patch>
+    <patch offset="0x4aa10">70 17</patch>
+    <patch offset="0x4c286">58 61 b9 4e 03 00 54 f8 40 d0</patch>
+    <patch offset="0x4c290">2c 61 fa 41 8a</patch>
+    <patch offset="0x4c296">f0 d0 00</patch>
+    <patch offset="0x4c29a">40 0c 0e</patch>
+    <patch offset="0x4c29e">1c 64</patch>
+    <patch offset="0x4c2a0">d0</patch>
+    <patch offset="0x553ea">02</patch>
+    <patch offset="0x5586b">60</patch>
+    <patch offset="0x5599a">8e</patch>
+    <patch offset="0x559a6">82</patch>
+    <patch offset="0x559c8">00 60 26</patch>
+    <patch offset="0x559f0">41 0c 07</patch>
+    <patch offset="0x559f4">32 64</patch>
+    <patch offset="0xc1054">38</patch>
+    <patch offset="0xc1056">08 70 39 0c 03</patch>
+    <patch offset="0xc105c">10 00 b8 0b</patch>
+    <patch offset="0xc1060">0a 66 79 0c 03 00 10</patch>
+    <patch offset="0xc1068">7a 69 06 64</patch>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0400 00003000 0100 0000</part>
+  </rom>
+  <!-- srom -->
+  <rom index="8" zip="wakuwak7.zip" type="merged" md5="None">
+    <part name="srom"/>
+  </rom>
+  <!-- croms -->
+  <rom address="0x38000000" index="15" zip="wakuwak7.zip" type="merged" md5="None">
+    <part name="crom0"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0f00 00008001 0100 0000</part>
+  </rom>
+  <!-- mrom -->
+  <rom address="0x32000000" index="9" zip="wakuwak7.zip" type="merged" md5="None">
+    <part name="m1rom"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0900 00000200 0000 0000</part>
+  </rom>
+  <!-- vrom -->
+  <rom address="0x30000000" index="16" zip="wakuwak7.zip" type="merged" md5="None">
+    <part name="vroma0"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>1000 00008000 0000 0000</part>
+  </rom>
+  <!-- config -->
+  <rom index="10" md5="None">
+    <part>0080 00008000 0000 0000</part>
+  </rom>
+</misterromdescription>

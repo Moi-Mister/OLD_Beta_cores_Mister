@@ -1,0 +1,262 @@
+<misterromdescription>
+  <name>The Last Blade 2 (Unlock Characters hack)</name>
+  <setname>lb2b</setname>
+  <mameversion>darksoft_neogeo</mameversion>
+  <rbf>NeoGeo-MVS</rbf>
+  <year>1998</year>
+  <manufacturer>hack (Dodowang)</manufacturer>
+  <players>2</players>
+  <joystick>8-way</joystick>
+  <rotation>horizontal</rotation>
+  <region>World</region>
+  <platform>Neo Geo MVS</platform>
+  <mratimestamp>20220328</mratimestamp>
+  <!-- bios -->
+  <rom address="0x38000000" index="0" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="a7aab458" name="uni-bios.rom"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0000 0000 0200 0100 0000</part>
+  </rom>
+  <!-- lorom -->
+  <rom index="1" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="5a86cff2" name="000-lo.lo" length="0x10000"/>
+  </rom>
+  <!-- sfix -->
+  <rom index="2" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="c2ea0cfd" name="sfix.sfix"/>
+  </rom>
+  <!-- prom -->
+  <rom address="0x38000000" index="4" zip="lastbld2.zip" type="merged" md5="None">
+    <part name="prom"/>
+    <patch offset="0x940">fc 33 11 11 40 00 80 01 fc 33 00 00 40 00 82 01</patch>
+    <patch offset="0x950">fc 33 22 02 40 00 84 01 fc 33 b8 5f 40 00 86 01</patch>
+    <patch offset="0x960">fc 33 85 4d 40 00 88 01 fc 33 40 0a 40 00 8a 01</patch>
+    <patch offset="0x970">fc 33 da 7f 40 00 8c 01 fc 33 10 78 40 00 8e 01</patch>
+    <patch offset="0x980">fc 33 60 47 40 00 90 01 fc 33 87 39 40 00 92 01</patch>
+    <patch offset="0x990">fc 33 90 2b 40 00 94 01 fc 33 d0 2f 40 00 96 01</patch>
+    <patch offset="0x9a0">fc 33 22 33 40 00 98 01 fc 33 b9 1b 40 00 9a 01</patch>
+    <patch offset="0x9b0">fc 33</patch>
+    <patch offset="0x9b3">7f 40 00 9c 01 fc 33 00 20 40 00 9e 01</patch>
+    <patch offset="0x9c0">fc 33 20 00 3c 00 04 00 fc 33 c6 71 3c 00 00 00</patch>
+    <patch offset="0x9d0">fc 33 80 c0 3c 00 02 00 fc 33 81 c0 3c 00 02 00</patch>
+    <patch offset="0x9e0">fc 33 82 c0 3c 00 02 00 fc 33 83 c0 3c 00 02 00</patch>
+    <patch offset="0x9f0">fc 33 84 c0 3c 00 02 00 fc 33 85 c0 3c 00 02 00</patch>
+    <patch offset="0xa00">fc 33 c7 71 3c 00 00 00 fc 33 86 c0 3c 00 02 00</patch>
+    <patch offset="0xa10">fc 33 87 c0 3c 00 02 00 fc 33 88 c0 3c 00 02 00</patch>
+    <patch offset="0xa20">fc 33 89 c0 3c 00 02 00 fc 33 8a c0 3c 00 02 00</patch>
+    <patch offset="0xa30">fc 33 8b c0 3c 00 02 00 fc 33 11 11 40 00 a0 01</patch>
+    <patch offset="0xa40">fc 33 99 2a 40 00 a2 01 fc 33 00 00 40 00 a4 01</patch>
+    <patch offset="0xa50">fc 33 00 45 40 00 a6 01 fc 33 10 68 40 00 a8 01</patch>
+    <patch offset="0xa60">fc 33 b8 5f 40 00 aa 01 fc 33 85 4d 40 00 ac 01</patch>
+    <patch offset="0xa70">fc 33 40 0a 40 00 ae 01 fc 33 87 48 40 00 b0 01</patch>
+    <patch offset="0xa80">fc 33 ec 1e 40 00 b2 01 fc 33 b9 1b 40 00 b4 01</patch>
+    <patch offset="0xa90">fc 33</patch>
+    <patch offset="0xa93">7f 40 00 b6 01 fc 33 33 42 40 00 b8 01</patch>
+    <patch offset="0xaa0">fc 33 45 43 40 00 ba 01 fc 33 ac 1b 40 00 bc 01</patch>
+    <patch offset="0xab0">fc 33 69 67 40 00 be 01 fc 33 20 00 3c 00 04 00</patch>
+    <patch offset="0xac0">fc 33 86 72 3c 00 00 00 fc 33 a0 d0 3c 00 02 00</patch>
+    <patch offset="0xad0">fc 33 a1 d0 3c 00 02 00 fc 33 a2 d0 3c 00 02 00</patch>
+    <patch offset="0xae0">fc 33 a3 d0 3c 00 02 00 fc 33 a4 d0 3c 00 02 00</patch>
+    <patch offset="0xaf0">fc 33 a5 d0 3c 00 02 00 fc 33 87 72 3c 00 00 00</patch>
+    <patch offset="0xb00">fc 33 a6 d0 3c 00 02 00 fc 33 a7 d0 3c 00 02 00</patch>
+    <patch offset="0xb10">fc 33 a8 d0 3c 00 02 00 fc 33 a9 d0 3c 00 02 00</patch>
+    <patch offset="0xb20">fc 33 aa d0 3c 00 02 00 fc 33 ab d0 3c 00 02 00</patch>
+    <patch offset="0xb30">fc 33 11 11 40 00 c0 01 fc 33 99 2a 40 00 c2 01</patch>
+    <patch offset="0xb40">fc 33 33 64 40 00 c4 01 fc 33 e1 2f 40 00 c6 01</patch>
+    <patch offset="0xb50">fc 33 78 38 40 00 c8 01 fc 33 dc 0d 40 00 ca 01</patch>
+    <patch offset="0xb60">fc 33 98 79 40 00 cc 01 fc 33 65 76 40 00 ce 01</patch>
+    <patch offset="0xb70">fc 33 31 06 40 00 d0 01 fc 33 86 03 40 00 d2 01</patch>
+    <patch offset="0xb80">fc 33</patch>
+    <patch offset="0xb83">7f 40 00 d4 01 fc 33 00 00 40 00 d6 01</patch>
+    <patch offset="0xb90">fc 33 20 4f 40 00 d8 01 fc 33 73 34 40 00 da 01</patch>
+    <patch offset="0xba0">fc 33</patch>
+    <patch offset="0xba3">7f 40 00 dc 01 fc 33 07 24 40 00 de 01</patch>
+    <patch offset="0xbb0">fc 33 20 00 3c 00 04 00 fc 33 d8 71 3c 00 00 00</patch>
+    <patch offset="0xbc0">fc 33 c0 e0 3c 00 02 00 fc 33 c1 e0 3c 00 02 00</patch>
+    <patch offset="0xbd0">fc 33 c2 e0 3c 00 02 00 fc 33 c3 e0 3c 00 02 00</patch>
+    <patch offset="0xbe0">fc 33 c4 e0 3c 00 02 00 fc 33 c5 e0 3c 00 02 00</patch>
+    <patch offset="0xbf0">fc 33 d9 71 3c 00 00 00 fc 33 c6 e0 3c 00 02 00</patch>
+    <patch offset="0xc00">fc 33 c7 e0 3c 00 02 00 fc 33 c8 e0 3c 00 02 00</patch>
+    <patch offset="0xc10">fc 33 c9 e0 3c 00 02 00 fc 33 ca e0 3c 00 02 00</patch>
+    <patch offset="0xc20">fc 33 cb e0 3c 00 02 00 fc 33 11 11 40 00 e0 01</patch>
+    <patch offset="0xc30">fc 33 99 2a 40 00 e2 01 fc 33 00 68 40 00 e4 01</patch>
+    <patch offset="0xc40">fc 33 22 63 40 00 e6 01 fc 33 63 09 40 00 e8 01</patch>
+    <patch offset="0xc50">fc 33 00 00 40 00 ea 01 fc 33 30 69 40 00 ec 01</patch>
+    <patch offset="0xc60">fc 33 73 4b 40 00 ee 01 fc 33 a6 7d 40 00 f0 01</patch>
+    <patch offset="0xc70">fc 33 da 6f 40 00 f2 01 fc 33 73 1a 40 00 f4 01</patch>
+    <patch offset="0xc80">fc 33 dc 6d 40 00 f6 01 fc 33 a8 1a 40 00 f8 01</patch>
+    <patch offset="0xc90">fc 33</patch>
+    <patch offset="0xc93">7f 40 00 fa 01 fc 33 8b 00 40 00 fc 01</patch>
+    <patch offset="0xca0">fc 33 11 56 40 00 fe 01 fc 33 20 00 3c 00 04 00</patch>
+    <patch offset="0xcb0">fc 33 98 72 3c 00 00 00 fc 33 e0 f0 3c 00 02 00</patch>
+    <patch offset="0xcc0">fc 33 e1 f0 3c 00 02 00 fc 33 e2 f0 3c 00 02 00</patch>
+    <patch offset="0xcd0">fc 33 e3 f0 3c 00 02 00 fc 33 e4 f0 3c 00 02 00</patch>
+    <patch offset="0xce0">fc 33 e5 f0 3c 00 02 00 fc 33 99 72 3c 00 00 00</patch>
+    <patch offset="0xcf0">fc 33 e6 f0 3c 00 02 00 fc 33 e7 f0 3c 00 02 00</patch>
+    <patch offset="0xd00">fc 33 e8 f0 3c 00 02 00 fc 33 e9 f0 3c 00 02 00</patch>
+    <patch offset="0xd10">fc 33 ea f0 3c 00 02 00 fc 33 eb f0 3c 00 02 00</patch>
+    <patch offset="0xd20">6c 26 18 00 75 4e</patch>
+    <patch offset="0x1a6da">b8 4e 40 09</patch>
+    <patch offset="0x1cc7c">b8</patch>
+    <patch offset="0x1cc7e">38</patch>
+    <patch offset="0x1cc82">38</patch>
+    <patch offset="0x1cc86">c8</patch>
+    <patch offset="0x1cc8a">c8</patch>
+    <patch offset="0x1cc9c">11</patch>
+    <patch offset="0x1cca0">10</patch>
+    <patch offset="0x1ccca">13</patch>
+    <patch offset="0x1ccce">12</patch>
+    <patch offset="0x1ccdc">13 11 01 11</patch>
+    <patch offset="0x1cce0">12 10 00 10 0c 13 11 13 0b 12 10 12</patch>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0400 00005000 0100 0000</part>
+  </rom>
+  <!-- srom -->
+  <rom index="8" zip="lastbld2.zip" type="merged" md5="None">
+    <part name="srom"/>
+    <patch offset="0x1000">00 11 77 77 77 77 71 71 00 11 77 77 77 57 57 55</patch>
+    <patch offset="0x1010">00 11 10 00 00 00 00 00 00 11 77 71 10 10 00 00</patch>
+    <patch offset="0x1020">00 11 11 36 34 54 43 43 00 11 a8 81 13 44 55 f4</patch>
+    <patch offset="0x1030">00 11 77 57 35 35 44 33 00 11 77 63 46 66 34 44</patch>
+    <patch offset="0x1040">00 11 ff ff f2 f2 f2 ff 00 11 2f ff ff ff f2 f2</patch>
+    <patch offset="0x1050">00 11 cb a8 88 ff ff ff 00 11 ff ff ff ff 3f 4f</patch>
+    <patch offset="0x1060">00 11 ff 2f ff ff f5 f5 00 11 2f ff 7f ff ff 2f</patch>
+    <patch offset="0x1070">00 11</patch>
+    <patch offset="0x1073">2f 2f 2f 5f 4f 00 11 22 22 f2 5f 44 44</patch>
+    <patch offset="0x1080">00 11 77 77 77 77 77 77 00 11 77 77 77 77 77 77</patch>
+    <patch offset="0x1090">00 11 77 7f ff f7 7f 7f 00 11 77 77 77 77 7f 77</patch>
+    <patch offset="0x10a0">00 11 17 01 00 00 00 00 00 01 00 00 00 00 00 00</patch>
+    <patch offset="0x10b0">00 11 77 77 77 77 77 77 00 11 77 77 17 17 01 01</patch>
+    <patch offset="0x10c0">51 51 41 54 15 11 a8 11 34 34 55 11 a8 81 11 11</patch>
+    <patch offset="0x10d0">00 00 00 00 00 00 10 11 00 00 00 10 10 51 15 11</patch>
+    <patch offset="0x10e0">54 f5 ff ff ff ff 98 11 ff ff ff df 9d 9e 9e 11</patch>
+    <patch offset="0x10f0">34 53 44 51 11 f1 f8 11 33 44 55 f5 ff ff ff 11</patch>
+    <patch offset="0x1100">2f 2f ff 4f 45 54 54 11 62 34 33 33 33 33 45 11</patch>
+    <patch offset="0x1110">ff ff 59 59 59 55 55 11 5f 4f 4f 54 44 43 46 11</patch>
+    <patch offset="0x1120">f5 7f 75 75 7f ff</patch>
+    <patch offset="0x1128">ff ff 77 77 77 77 ff 11</patch>
+    <patch offset="0x1130">ff 4f 33 33 45 43 53 11 44 f3 56 56 55 f5 8f 11</patch>
+    <patch offset="0x1140">77 77 77 77 77 77 77 11 77 77 77 77 77 77 77 11</patch>
+    <patch offset="0x1150">72 7f 7f 77 77 77 77 11 77 77 77 77 77 77 77 11</patch>
+    <patch offset="0x1160">00 00 00 00 00 01 17 11 00 00 00 00 00 00 00 01</patch>
+    <patch offset="0x1170">77 77 77 77 77 77 77 11 01 01 01 17 17 77 77 11</patch>
+    <patch offset="0x1400">00 22 ff ff f2 f2 20 20 00 22 ff ff ff ff ff ff</patch>
+    <patch offset="0x1410">00 20 00 00 00 00 00 00 00</patch>
+    <patch offset="0x141a">f2 20 00 00 00 00</patch>
+    <patch offset="0x1420">00 22 ff ff ff ff ff ff 00 22 3f 3f ff ff ff ff</patch>
+    <patch offset="0x1430">00</patch>
+    <patch offset="0x1432">ff ff ff ff ff ff 00</patch>
+    <patch offset="0x143a">ff ff ff ff ff ff</patch>
+    <patch offset="0x1440">00 22 cd cc ff ff cf 67 00 22 ff ff df cd cc 66</patch>
+    <patch offset="0x1450">00</patch>
+    <patch offset="0x1452">a4 84 43 43 3f ff 00</patch>
+    <patch offset="0x145a">ee ee ed d3 34 33</patch>
+    <patch offset="0x1460">00 22 44 44 44 44 43 34 00 22 44 44 44 44 44 43</patch>
+    <patch offset="0x1470">00</patch>
+    <patch offset="0x1472">4c 9c 3c 43 33 44 00</patch>
+    <patch offset="0x147a">3a 4a 33 44 44 33</patch>
+    <patch offset="0x1480">00 22 44 44 44 44 44 44 00 22 44 44 44 44 33 44</patch>
+    <patch offset="0x1490">00</patch>
+    <patch offset="0x1492">44 44 44 44 43 44 00</patch>
+    <patch offset="0x149a">44 44 44 44 44 33</patch>
+    <patch offset="0x14a0">00 22 34 23 02 02 00 00 00 22 02 00 00 00 00 00</patch>
+    <patch offset="0x14b0">00</patch>
+    <patch offset="0x14b2">44 44 44 44 44 33 00</patch>
+    <patch offset="0x14ba">43 44 44 44 24 23</patch>
+    <patch offset="0x14c0">20 20 20 b2 92 a9 89</patch>
+    <patch offset="0x14c8">ff aa bb bb 99 99 99 22</patch>
+    <patch offset="0x14d0">00 00 00 00 00 00 00 20 00 00 00 00 00 20 92 22</patch>
+    <patch offset="0x14e0">ff aa bb 99 99 99 99 22 8f aa 9b 99 99 99 a9</patch>
+    <patch offset="0x14f0">ff aa bb bb 99 99 99</patch>
+    <patch offset="0x14f8">ff aa bb 99 99 99 99</patch>
+    <patch offset="0x1500">57 77 7a 8a 8a 8a 98</patch>
+    <patch offset="0x1508">56 66 67 67 27 22 78 22</patch>
+    <patch offset="0x1510">88 aa a9 a9 a9 8a 9a 22 38 38 a8 a8 a8 a8 88 22</patch>
+    <patch offset="0x1520">43 33 9a 9a 99 88 cb</patch>
+    <patch offset="0x1528">34 43 3a aa 88 99 dc 22</patch>
+    <patch offset="0x1530">35 66 75 66 66</patch>
+    <patch offset="0x1536">77</patch>
+    <patch offset="0x1538">33 9a 9a 9a 9a 9a aa</patch>
+    <patch offset="0x1540">33 44 33 cc cc dd dd</patch>
+    <patch offset="0x1548">44 33 33 3c cc dd dd 22</patch>
+    <patch offset="0x1550">43 34 33 38 aa cc dd 22 44 33 83 33 cc dd dd 22</patch>
+    <patch offset="0x1560">00 00 00 02 02 28 99 22 00 00 00 00 00 00 02</patch>
+    <patch offset="0x1570">34 43 33 c3 cc cc 9c</patch>
+    <patch offset="0x1578">23 23 23 33 cc 22 99</patch>
+    <patch offset="0x1800">00 bb dd df fe ee eb eb 00 bb dd dd df fe ee ee</patch>
+    <patch offset="0x1810">00 bb b0 00 00 00 00 00 00 bb dd fb b0 b0 00 00</patch>
+    <patch offset="0x1820">00 bb dd dd dd dd dd df 00 bb dd dd dd dd dd dd</patch>
+    <patch offset="0x1830">00 bb dd dd dd df fe ee 00 bb dd dd dd dd df fe</patch>
+    <patch offset="0x1840">00 bb fd ef ee ee ee ee 00 bb ee ee ee ee ee ee</patch>
+    <patch offset="0x1850">00 bb dd dd dd dd dd fd 00 bb dd dd fd ef ef ee</patch>
+    <patch offset="0x1860">00 bb dd dd dd df df fe 00 bb dd dd dd dd dd dd</patch>
+    <patch offset="0x1870">00 bb ee ee ee ee ee ee 00 bb df fe fe ee ee ee</patch>
+    <patch offset="0x1880">00 bb dd dd dd dd dd dd 00 bb dd dd dd dd dd dd</patch>
+    <patch offset="0x1890">00 bb dd dd dd dd dd dd 00 bb dd dd dd dd dd dd</patch>
+    <patch offset="0x18a0">00 bb bd 0b 00 00 00 00 00 0b 00 00 00 00 00 00</patch>
+    <patch offset="0x18b0">00 bb dd dd dd dd dd dd 00 bb dd dd bd bd 0b 0b</patch>
+    <patch offset="0x18c0">eb eb eb ee ee ee ee bb ee ee ee ee ee ee ee bb</patch>
+    <patch offset="0x18d0">00 00 00 00 00 00 b0 bb 00 00 00 b0 b0 eb ee bb</patch>
+    <patch offset="0x18e0">fe ee ee ee ee ee ee bb df fe ee ee ee ee ee bb</patch>
+    <patch offset="0x18f0">ee ee ee ee ee ee ee bb ee ee ee ee ee ee ee bb</patch>
+    <patch offset="0x1900">cc cc ce ee ee ee ee bb ee ee ee ee ee ee ee bb</patch>
+    <patch offset="0x1910">ef ee ee ee ee ee ee bb ee ee ee ee ee ee ee bb</patch>
+    <patch offset="0x1920">fe fe ee ee ee ee ee bb dd dd df df fe ee ee bb</patch>
+    <patch offset="0x1930">ee ce cc ec ee ee ee bb ee ec ec ee ee ee ee bb</patch>
+    <patch offset="0x1940">dd dd dd dd ff ee ee bb dd dd dd dd ff ee ee bb</patch>
+    <patch offset="0x1950">dd dd dd dd ff ee ee bb dd dd dd dd ff ee ee bb</patch>
+    <patch offset="0x1960">00 00 00 00 00 0b bf bb 00 00 00 00 00 00 00 0b</patch>
+    <patch offset="0x1970">dd dd dd dd ff ee ee bb 0b 0b 0b bd bf ee ee bb</patch>
+    <patch offset="0x1c00">00 55 ee ee e5 e5 50 50 00 55 ee ee ee ee ee ee</patch>
+    <patch offset="0x1c10">00 50 00 00 00 00 00 00 00 55 e5 50 00 00 00 00</patch>
+    <patch offset="0x1c20">00 55 ee ee ee ee ee ee 00 55 ee 5e 55 ee ee ee</patch>
+    <patch offset="0x1c30">00 55 ee ee ee ee ee ee 00 55 ee ee ee ee ee ee</patch>
+    <patch offset="0x1c40">00 55 db dd bb db 65 95 00 55 bd dd dd dd 67 77</patch>
+    <patch offset="0x1c50">00 55 55 55 55 5e 55 55 00 55 55 b5 b5 b5 c5 5e</patch>
+    <patch offset="0x1c60">00 55 55 55 55 55 55 75 00 55 55 55 55 55 55 55</patch>
+    <patch offset="0x1c70">00 55 55 55 5d 5b 55 95 00 55 55 55 5c 5c 55 55</patch>
+    <patch offset="0x1c80">00 55 ee ee ee ee ee ee 00 55 ee ee ee ee ee ee</patch>
+    <patch offset="0x1c90">00 55 55 ee e5 e5 55 5e 00 55 ee ee ee ee ee ee</patch>
+    <patch offset="0x1ca0">00 55 ee 5e 05 05 00 00 00 55 05 00 00 00 00 00</patch>
+    <patch offset="0x1cb0">00 55 ee ee ee ee ee ee 00 55 ee ee ee ee 5e 5e</patch>
+    <patch offset="0x1cc0">50 50 50 e5 e5 ee ee 55 ee ee ee ee ee ee ee 55</patch>
+    <patch offset="0x1cd0">00 00 00 00 00 00 00 50 00 00 00 00 00 50 e5 55</patch>
+    <patch offset="0x1ce0">ee ee ee ee ee ee ee 55 ee ee ee ee ee ee ee 55</patch>
+    <patch offset="0x1cf0">ee ee ee ee ee ee ee 55 ee ee ee ee ee ee ee 55</patch>
+    <patch offset="0x1d00">95 77 76 75 6e ee fc 55 87 88 86 67 77 76 bf 55</patch>
+    <patch offset="0x1d10">e5 e5 ee ee ee ee ee 55 6e 5e 5e 5e 5e ee bb 55</patch>
+    <patch offset="0x1d20">75 55 55 65 a6 cc cc 55 55 55 5e 76 67 6a fc 55</patch>
+    <patch offset="0x1d30">95 88 68 76 88 67 76 55 57 78 78 68 76 77 c7 55</patch>
+    <patch offset="0x1d40">ee ee ee ee ee ee ee 55 ee ee ee ee ee ee ee 55</patch>
+    <patch offset="0x1d50">5e ee ee ee e7 67 ff 55 ee ee ee ee ee e7 66 55</patch>
+    <patch offset="0x1d60">00 00 00 05 05 5e ee 55 00 00 00 00 00 00 05 55</patch>
+    <patch offset="0x1d70">ee ee ee ee ee ee ee 55 5e 5e 5e ee ee ee ee 55</patch>
+  </rom>
+  <!-- croms -->
+  <rom address="0x38000000" index="15" zip="lastbld2.zip" type="merged" md5="None">
+    <part name="crom0"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0f00 00000003 0100 0000</part>
+  </rom>
+  <!-- mrom -->
+  <rom address="0x32000000" index="9" zip="lastbld2.zip" type="merged" md5="None">
+    <part name="m1rom"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0900 00000200 0000 0000</part>
+  </rom>
+  <!-- vrom -->
+  <rom address="0x30000000" index="16" zip="lastbld2.zip" type="merged" md5="None">
+    <part name="vroma0"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>1000 00000001 0000 0000</part>
+  </rom>
+  <!-- config -->
+  <rom index="10" md5="None">
+    <part>0080 00008000 0000 0000</part>
+  </rom>
+</misterromdescription>

@@ -1,0 +1,175 @@
+<misterromdescription>
+  <name>World Heroes Perfect (Unlock Characters hack)</name>
+  <setname>whpbh</setname>
+  <mameversion>darksoft_neogeo</mameversion>
+  <rbf>NeoGeo-MVS</rbf>
+  <year>1995</year>
+  <manufacturer>hack (Dodowang)</manufacturer>
+  <players>2</players>
+  <joystick>8-way</joystick>
+  <rotation>horizontal</rotation>
+  <region>World</region>
+  <platform>Neo Geo MVS</platform>
+  <mratimestamp>20220601</mratimestamp>
+  <!-- bios -->
+  <rom address="0x38000000" index="0" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="a7aab458" name="uni-bios.rom"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0000 0000 0200 0100 0000</part>
+  </rom>
+  <!-- lorom -->
+  <rom index="1" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="5a86cff2" name="000-lo.lo" length="0x10000"/>
+  </rom>
+  <!-- sfix -->
+  <rom index="2" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="c2ea0cfd" name="sfix.sfix"/>
+  </rom>
+  <!-- prom -->
+  <rom address="0x38000000" index="4" zip="whp.zip" type="merged" md5="None">
+    <part name="prom"/>
+    <patch offset="0x901c">e0 91</patch>
+    <patch offset="0x91e0">7c 1d 03</patch>
+    <patch offset="0x91e4">72 30 f9 4e</patch>
+    <patch offset="0x91ea">42 92</patch>
+    <patch offset="0x1d73a">03</patch>
+    <patch offset="0x1d73c">80 af</patch>
+    <patch offset="0x1e462">11</patch>
+    <patch offset="0x1e466">11</patch>
+    <patch offset="0x1e472">02</patch>
+    <patch offset="0x1e474">09 0d</patch>
+    <patch offset="0x1e479">11</patch>
+    <patch offset="0x1e47c">11</patch>
+    <patch offset="0x1e486">05</patch>
+    <patch offset="0x1e488">09 0d</patch>
+    <patch offset="0x1e492">0d</patch>
+    <patch offset="0x1e49a">11</patch>
+    <patch offset="0x1e4aa">09</patch>
+    <patch offset="0x1e4ae">11</patch>
+    <patch offset="0x1e4b2">01</patch>
+    <patch offset="0x1e4f7">70</patch>
+    <patch offset="0x1e4f9">92</patch>
+    <patch offset="0x3af80">fc 33 11 11 40</patch>
+    <patch offset="0x3af86">e0 01 fc 33 99 2a 40</patch>
+    <patch offset="0x3af8e">e2 01</patch>
+    <patch offset="0x3af90">fc 33 30 08 40</patch>
+    <patch offset="0x3af96">e4 01 fc 33 e1 2f 40</patch>
+    <patch offset="0x3af9e">e6 01</patch>
+    <patch offset="0x3afa0">fc 33 78 38 40</patch>
+    <patch offset="0x3afa6">e8 01 fc 33 55 15 40</patch>
+    <patch offset="0x3afae">ea 01</patch>
+    <patch offset="0x3afb0">fc 33 93 6d 40</patch>
+    <patch offset="0x3afb6">ec 01 fc 33 62 6b 40</patch>
+    <patch offset="0x3afbe">ee 01</patch>
+    <patch offset="0x3afc0">fc 33 31 06 40</patch>
+    <patch offset="0x3afc6">f0 01 fc 33 da 0f 40</patch>
+    <patch offset="0x3afce">f2 01</patch>
+    <patch offset="0x3afd0">fc 33 b5 5e 40</patch>
+    <patch offset="0x3afd6">f4 01 fc 33 bc 2b 40</patch>
+    <patch offset="0x3afde">f6 01</patch>
+    <patch offset="0x3afe0">fc 33 ff 7f 40</patch>
+    <patch offset="0x3afe6">f8 01 fc 33 41 69 40</patch>
+    <patch offset="0x3afee">fa 01</patch>
+    <patch offset="0x3aff0">fc 33 34 73 40</patch>
+    <patch offset="0x3aff6">fc 01 fc 33 22 02 40</patch>
+    <patch offset="0x3affe">fe 01</patch>
+    <patch offset="0x3b000">fc 33 20</patch>
+    <patch offset="0x3b004">3c</patch>
+    <patch offset="0x3b006">04</patch>
+    <patch offset="0x3b008">fc 33 4e 72 3c</patch>
+    <patch offset="0x3b010">fc 33 70 f3 3c</patch>
+    <patch offset="0x3b016">02</patch>
+    <patch offset="0x3b018">fc 33 71 f3 3c</patch>
+    <patch offset="0x3b01e">02</patch>
+    <patch offset="0x3b020">fc 33 72 f3 3c</patch>
+    <patch offset="0x3b026">02</patch>
+    <patch offset="0x3b028">fc 33 73 f3 3c</patch>
+    <patch offset="0x3b02e">02</patch>
+    <patch offset="0x3b030">fc 33 4f 72 3c</patch>
+    <patch offset="0x3b038">fc 33 74 f3 3c</patch>
+    <patch offset="0x3b03e">02</patch>
+    <patch offset="0x3b040">fc 33 75 f3 3c</patch>
+    <patch offset="0x3b046">02</patch>
+    <patch offset="0x3b048">fc 33 76 f3 3c</patch>
+    <patch offset="0x3b04e">02</patch>
+    <patch offset="0x3b050">fc 33 77 f3 3c</patch>
+    <patch offset="0x3b056">02</patch>
+    <patch offset="0x3b058">fc 33 50 72 3c</patch>
+    <patch offset="0x3b060">fc 33 90 f3 3c</patch>
+    <patch offset="0x3b066">02</patch>
+    <patch offset="0x3b068">fc 33 91 f3 3c</patch>
+    <patch offset="0x3b06e">02</patch>
+    <patch offset="0x3b070">fc 33 92 f3 3c</patch>
+    <patch offset="0x3b076">02</patch>
+    <patch offset="0x3b078">fc 33 93 f3 3c</patch>
+    <patch offset="0x3b07e">02</patch>
+    <patch offset="0x3b080">fc 33 51 72 3c</patch>
+    <patch offset="0x3b088">fc 33 94 f3 3c</patch>
+    <patch offset="0x3b08e">02</patch>
+    <patch offset="0x3b090">fc 33 95 f3 3c</patch>
+    <patch offset="0x3b096">02</patch>
+    <patch offset="0x3b098">fc 33 96 f3 3c</patch>
+    <patch offset="0x3b09e">02</patch>
+    <patch offset="0x3b0a0">fc 33 97 f3 3c</patch>
+    <patch offset="0x3b0a6">02</patch>
+    <patch offset="0x3b0a8">b9 4e</patch>
+    <patch offset="0x3b0ac">aa e7 75 4e</patch>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0400 00002000 0100 0000</part>
+  </rom>
+  <!-- srom -->
+  <rom index="8" zip="whp.zip" type="merged" md5="None">
+    <part name="srom"/>
+    <patch offset="0x6e00">cc 2c 6c 6c dc dc 2c fc cc 67 3d 7d d2 2d 22 28</patch>
+    <patch offset="0x6e20">cc 63 37 77 d6 77 a2 a7 cc 6c 26 dd 6d aa aa a7</patch>
+    <patch offset="0x6e30">cc 33 3a aa 6d 22 27 6d cc 63 a3 33 67 dd dd d2</patch>
+    <patch offset="0x6e40">cc 37 36 37 36 67 76 d2 cc 73 33 63 33 66 72 77</patch>
+    <patch offset="0x6e50">cc a6 d7 77 99 9a a9 66 cc d3 78 7a a9 99 63 6a</patch>
+    <patch offset="0x6e70">cc 67 2a 66 66 6a 66 a7 cc c2 c2 c2 c7 cd c7 c6</patch>
+    <patch offset="0x6e80">2c 2c 8c fc fc fc fc ec 28 f8 ff ff ff ff ff fe</patch>
+    <patch offset="0x6ea0">d6 77 28 77 ad 9d 62 dd d7 d2 88 ad d7 da 76 d2</patch>
+    <patch offset="0x6eb0">27 72 ff ff ff ff ff ff 78 d6 f8 d2 67 78 7f 28</patch>
+    <patch offset="0x6ec0">77 79 a9 79 7a 66 9a 9a 92 77 a2 a7 77 dd 27 d7</patch>
+    <patch offset="0x6ed0">76 f5 67 67 6a 7d 96 66 28 68 99 99 96 ad 6a a7</patch>
+    <patch offset="0x6ef0">7d 7d 22 22 d2 dd d6 7a c7 cd cd c2 c7 c6 c6 c7</patch>
+    <patch offset="0x7200">5c 5c 7c 6c 7c 2c dc bc 55 1f 9a aa 41 5d ef ff</patch>
+    <patch offset="0x7220">2d 72 72 a7 d5 54 9b cc 7d 72 2d aa 96 77 1c cc</patch>
+    <patch offset="0x7230">8e 2f 79 bc c9 b4 4f 5f 27 7d 22 84 4c bc cc cb</patch>
+    <patch offset="0x7240">aa 66 2d dd 62 77 25 5b 7d 62 ad 92 92 92 a7 77</patch>
+    <patch offset="0x7250">67 9a 7d a6 7a 16 fe fb 92 97 9c 79 2d 25 1b 9f</patch>
+    <patch offset="0x7270">7a 79 79 7a 77 7d d2 22 c7 c7 c7 c7 c7 c7 c7 cd</patch>
+    <patch offset="0x7280">cc cc 9c 1c 5c 5c 1c cc ff eb fc fb cf 1b e1 cc</patch>
+    <patch offset="0x72a0">cb cf ff ef ff 55 45 cc cc 4b e5 fe 15 b1 5b cc</patch>
+    <patch offset="0x72b0">ef 5f c5 bc b4 c4 fe cc cf b9 eb e4 5b 4c 5e cc</patch>
+    <patch offset="0x72c0">14 f5 5e ff fe f1 eb cc d5 8e fe ff fe ef ff cc</patch>
+    <patch offset="0x72d0">bc cc c4 1b 5b f5 55 cc ff f5 fe 55 f1 4f 4f cc</patch>
+    <patch offset="0x72f0">88 67 77 8f fe b5 5f cc c2 cd c2 cf cf cb cb cc</patch>
+  </rom>
+  <!-- croms -->
+  <rom address="0x38000000" index="15" zip="whp.zip" type="merged" md5="None">
+    <part name="crom0"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0f00 0000c001 0100 0000</part>
+  </rom>
+  <!-- mrom -->
+  <rom address="0x32000000" index="9" zip="whp.zip" type="merged" md5="None">
+    <part name="m1rom"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0900 00000200 0000 0000</part>
+  </rom>
+  <!-- vrom -->
+  <rom address="0x30000000" index="16" zip="whp.zip" type="merged" md5="None">
+    <part name="vroma0"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>1000 00006000 0000 0000</part>
+  </rom>
+  <!-- config -->
+  <rom index="10" md5="None">
+    <part>0080 00008000 0000 0000</part>
+  </rom>
+</misterromdescription>
