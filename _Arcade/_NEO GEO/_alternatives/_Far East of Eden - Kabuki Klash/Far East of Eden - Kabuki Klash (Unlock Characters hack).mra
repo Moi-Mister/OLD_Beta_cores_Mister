@@ -1,0 +1,97 @@
+<misterromdescription>
+  <name>Far East of Eden - Kabuki Klash (Unlock Characters hack)</name>
+  <setname>kabukiklb</setname>
+  <mameversion>darksoft_neogeo</mameversion>
+  <rbf>NeoGeo-MVS</rbf>
+  <year>1995</year>
+  <manufacturer>hack (Ydmis &amp; Creamymami)</manufacturer>
+  <players>2</players>
+  <joystick>8-way</joystick>
+  <rotation>horizontal</rotation>
+  <region>World</region>
+  <platform>Neo Geo MVS</platform>
+  <mratimestamp>20220530</mratimestamp>
+  <!-- bios -->
+  <rom address="0x38000000" index="0" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="a7aab458" name="uni-bios.rom"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0000 0000 0200 0100 0000</part>
+  </rom>
+  <!-- lorom -->
+  <rom index="1" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="5a86cff2" name="000-lo.lo" length="0x10000"/>
+  </rom>
+  <!-- sfix -->
+  <rom index="2" zip="neogeo.zip" type="merged" md5="None">
+    <part crc="c2ea0cfd" name="sfix.sfix"/>
+  </rom>
+  <!-- prom -->
+  <rom address="0x38000000" index="4" zip="kabukikl.zip" type="merged" md5="None">
+    <part name="prom"/>
+    <patch offset="0xb38a">00</patch>
+    <patch offset="0x1278a">b9 4e 02 00 40 f5</patch>
+    <patch offset="0x127a8">b9 4e 02 00 50 f5</patch>
+    <patch offset="0x13910">0c</patch>
+    <patch offset="0x13bee">1c</patch>
+    <patch offset="0x13bf6">1c</patch>
+    <patch offset="0x13bfe">1c</patch>
+    <patch offset="0x13c02">1c</patch>
+    <patch offset="0x13c06">1c</patch>
+    <patch offset="0x13c0a">1c</patch>
+    <patch offset="0x2f540">10 53 10 0c 0b 00 04 63 bc 10 0b 00 75 4e</patch>
+    <patch offset="0x2f550">10 52 10 0c 0b 00 02 63 10 42 75 4e</patch>
+    <patch offset="0xf7f42">f7 ff 79 27 67 45 44 53 44 53 23 42 c9 5e</patch>
+    <patch offset="0xf7f50">96 1d 65 6a 43 57 33 43</patch>
+    <patch offset="0xf7f5a">15 4f</patch>
+    <patch offset="0xf7fa4">79 27 67 45 44 53 44 53 23 42 c9 5e</patch>
+    <patch offset="0xf7fb0">96 1d 65 6a 43 57 33 43</patch>
+    <patch offset="0xf7fba">15 4f</patch>
+    <patch offset="0xf8068">9a 7d 89 0b 56 38 34 64</patch>
+    <patch offset="0xf8070">ce 6f 9b 6f 57 6e 45 4c 23 79 23 07 12 35 02 10</patch>
+    <patch offset="0xf80a8">67 78 44 36 22 35 12 43</patch>
+    <patch offset="0xf80b0">aa 3c 8a 0c 45 3b 34 69 12 37 12 35 12</patch>
+    <patch offset="0xf80be">01 10</patch>
+    <patch offset="0xf8162">5a 00 6a 51 7a 34 8c 34 9d 20 ae 30 cf 66</patch>
+    <patch offset="0xf8262">11 30 52 20 b7 53 c9 38 44 05 87 49 b9 1c</patch>
+    <patch offset="0xf8270">5a 00 ae 30 cf 66</patch>
+    <patch offset="0xf8322">11 30 52 20 b7 53 c9 38 44 05 87 49 b9 1c</patch>
+    <patch offset="0xf8330">5a 00 ae 30 cf 66</patch>
+    <patch offset="0xf833c">12 6e</patch>
+    <patch offset="0xf8422">11 30 52 20 b7 53 c9 38 44 05 87 49 b9 1c</patch>
+    <patch offset="0xf8430">5a 00 ae 30 cf 66</patch>
+    <patch offset="0xf843c">12 6e</patch>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0400 00002000 0100 0000</part>
+  </rom>
+  <!-- srom -->
+  <rom index="8" zip="kabukikl.zip" type="merged" md5="None">
+    <part name="srom"/>
+  </rom>
+  <!-- croms -->
+  <rom address="0x38000000" index="15" zip="kabukikl.zip" type="merged" md5="None">
+    <part name="crom0"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0f00 00000001 0100 0000</part>
+  </rom>
+  <!-- mrom -->
+  <rom address="0x32000000" index="9" zip="kabukikl.zip" type="merged" md5="None">
+    <part name="m1rom"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>0900 00000200 0000 0000</part>
+  </rom>
+  <!-- vrom -->
+  <rom address="0x30000000" index="16" zip="kabukikl.zip" type="merged" md5="None">
+    <part name="vroma0"/>
+  </rom>
+  <rom index="10" md5="None">
+    <part>1000 00007000 0000 0000</part>
+  </rom>
+  <!-- config -->
+  <rom index="10" md5="None">
+    <part>0080 00008000 0000 0000</part>
+  </rom>
+</misterromdescription>
