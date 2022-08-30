@@ -79,7 +79,7 @@
 		<!-- part name="dkgenm72_i8751.ic1" crc=""/ -->
 
 	      <!-- samples - starts at 0x2A0000 -->
-	  	<part>00 02 00 00</>
+	  	<part>00 02 00 00</part>
         	<part name="gen-vo.bin" crc="d8595c66"/>
     </rom>
 </misterromdescription>
